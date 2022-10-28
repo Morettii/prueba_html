@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>"Desarrollo de Sistemas Web Dinámicos"</title>
+    
+</head>
+<body> 
+  <img src="logo_cft" alt="logo">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <a class="nav-link" href="#">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Admisión</a>
+      </li>
+      <li class="nav-item Carreras">
+        <a class="nav-link Carreras-toggle" href="#" id="navbarCarreras" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Carreras
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Contactanos</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="Busqueda" placeholder="Busqueda" aria-label="Busqueda">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+</div>
+</nav>   
+    
+    <fieldset>
+    <center><h1>Formulario de Notas </h1><center>
+    <form action="controlador.php" method="POST">
+    <div class="form-group col-3 mb-4">
+            <input type="text" name="nombre" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese el nombre del estudiante">
+            <br><label for="" id="label_nombre"></label>
+        </div>
+        <center>
+        <h3>Ingrese sus notas</h3>
+        <h3> Unidad 1 total 33%: Características de un sitio Web</h3>
+        <div class="form-group col-3 mb-4">
+            <input type="text" name="n1" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nota 1">
+            <br><label for="" id="label_n1"></label>
+        </div>
+        
+        <div class="form-group col-3 mb-4">
+            <input type="text" name="n2" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nota 2">
+            <br><label for="" id="label_n2"></label>
+        </div>
+        <br></br>
+        <h3>Unidad 2: 33%: Programación básica de un aplicación Web</h3>
+        <div class="form-group col-3 mb-4">
+            <input type="text" name="n3" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nota 3">
+            <br><label for="" id="label_n3"></label>
+        </div>
+        
+        <div class="form-group col-3 mb-4">
+            <input type="text" name="n4" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nota 4">
+            <br><label for="" id="label_n4"></label>
+        </div>
+        <br><br>
+        <h3>Unidad 3: 34%: Programación Avanzada de una aplicación Web</h3>
+        <div class="form-group col-3 mb-4">
+            <input type="text" name="n5" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nota 5">
+            <br><label for="" id="label_n5"></label>
+        </div>
+        <div class="form-group col-3 mb-4">
+            <input type="text" name="n6" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nota 6">
+            <br><label for="" id="label_n6"></label>
+        </div>
+        
+      <input type="submit" value="Enviar" class="botons" name="submit"></input>
+    </form>
+    </center>
+</fieldset>
+
+    <img src="./Directorios/Imagen/img.jpg">
+</body>
+</html>
